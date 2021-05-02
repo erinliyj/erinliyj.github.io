@@ -20,8 +20,9 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "A Data Scientist Prepares"
+    description: "Become data scientist, from 0 to 1"
+    url: /ds-prepare/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"

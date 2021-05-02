@@ -15,17 +15,17 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-CA"
 title                    : "Erlalala"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Erin Li"
 description              : "An amazing website."
 url                      : "https://erinliyj.github.io/"
-baseurl                  :  "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "erinliyj/erinliyj.github.io"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
-logo                     : "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. 
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" 
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" 
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -95,9 +95,9 @@ analytics:
 # Site Author
 author:
   name             : "Erin Li"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Toronto"
   email            :
   links:
     - label: "Email"
@@ -219,7 +219,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -228,6 +231,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # Archives
