@@ -1,6 +1,8 @@
 main:
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
+  - title: "Articles"
+    url: /articles/
   # - title: "Posts"
   #   url: /year-archive/
   # - title: "Categories"
