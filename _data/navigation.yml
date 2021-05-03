@@ -6,9 +6,9 @@ main:
   - title: "Tips"
     description: "Quick Reference For Coding"
     url: /tips/
-  # - title: "Lens"
-  #   description: "See Data Without Numbers"
-  #   url: /lens/
+  - title: "Lens"
+    description: "See Data Without Numbers"
+    url: /lens/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

@@ -1,19 +1,19 @@
 ---
 layout: archive
 author_profile: true
-title: "A Data Scientist Prepares"
-excerpt: "Discuss Machine Learning Concepts In Depth"
+title: "Notes and Tips"
+excerpt: "Tips for getting things done, fast"
 image:
   feature: pen.jpg
 id: home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/star-track-unsplash-grey.jpg
+  overlay_image: /assets/images/running-dog.jpg
 ---
 
 <div class="tiles">
-{% for post in site.categories.articles %}
+{% for post in site.categories.tips %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
