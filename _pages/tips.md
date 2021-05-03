@@ -1,8 +1,8 @@
 ---
 layout: archive
 author_profile: true
-title: "Notes and Tips"
-excerpt: "Tips for getting things done, fast"
+title: "Tips"
+excerpt: "When need to get things done, fast"
 image:
   feature: pen.jpg
 id: home

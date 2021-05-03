@@ -1,19 +1,13 @@
 ---
-layout: archive
-author_profile: true
-title: "A Data Scientist Prepares"
+title: A Data Scientist Prepares
 excerpt: "Discuss Machine Learning Concepts In Depth"
-image:
-  feature: pen.jpg
-id: home
+layout: collection
+permalink: /articles/
+collection: articles
+entries_layout: grid
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/star-track-unsplash-grey.jpg
 ---
-
-<div class="tiles">
-{% for post in site.categories.articles %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
