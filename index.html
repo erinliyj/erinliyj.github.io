@@ -1,43 +1,13 @@
 ---
 layout: home
 author_profile: true
-permalink: /
 title: "Home of ErLalala"
 excerpt: "Collet, Process, and Create"
 image:
   feature: moon-mow-grey.jpg
 id: home
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/moon-mow-grey.jpg
 ---
-
-Erlalala where I post things I learnt, made, and sometimes destroyed
-{:.shorten}
-
----
-
-### [A Data Scientist Prepares]({{ site.url }}/articles/)
-
-<div class="tiles">
-{% for post in site.categories.articles limit:4 %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-
----
-
-### [Tips and Notes]({{ site.url }}/tips/)
-
-<div class="tiles">
-{% for post in site.categories.tips limit:4 %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-
----
-
-### [Lens: New Look of Data]({{ site.url }}/lens/)
-
-<ul class="th-grid-full">
-{% for post in site.categories.lens limit:8 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumbnail image"></a></li>
-{% endfor %}
-</ul>
