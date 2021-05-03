@@ -1,9 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Articles"
+    description: "A Data Scientist Prepares"
+    url: /articles/
+  - title: "Tips"
+    description: "Quick Reference For Coding"
+    url: /tips/
+  # - title: "Lens"
+  #   description: "See Data Without Numbers"
+  #   url: /lens/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
