@@ -3,6 +3,7 @@ title: "Post: Standard"
 excerpt_separator: "<!--more-->"
 categories:
   - Post Formats
+  - Tips
 tags:
   - Post Formats
   - readability

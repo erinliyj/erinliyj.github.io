@@ -1,11 +1,9 @@
 ---
 title: Tips
 excerpt: "When Need To Get Things Done, Fast"
-layout: collection
-permalink: /tips/
-collection: tips
-entries_layout: grid
-classes: wide
+layout: category
+permalink: /categories/tips/
+taxonomy: Tips
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

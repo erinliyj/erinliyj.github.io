@@ -5,10 +5,10 @@ main:
     url: /categories/articles/
   - title: "Tips"
     description: "Quick Reference For Anything"
-    url: /tips/
+    url: /categories/tips/
   - title: "Lens"
     description: "A New Look of Data"
-    url: /lens/
+    url: /categories/lens/
   - title: "Portfolio"
     description: "A Collection Of My Work"
     url: /portfolio/

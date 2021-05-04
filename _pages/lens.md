@@ -1,11 +1,9 @@
 ---
 title: Lens
 excerpt: "A New Look Of Data"
-layout: collection
-permalink: /lens/
-collection: lens
-entries_layout: grid
-classes: wide
+layout: category
+permalink: /categories/lens/
+taxonomy: Lens
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
