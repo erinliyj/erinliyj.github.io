@@ -9,6 +9,9 @@ main:
   - title: "Lens"
     description: "A New Look of Data"
     url: /lens/
+  - title: "Portfolio"
+    description: "Work I'd Like To Show-off"
+    url: /porfolio/    
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
