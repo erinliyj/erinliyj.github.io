@@ -15,7 +15,6 @@ header:
 ---
 title: A Data Scientist Prepares
 excerpt: "Discuss Machine Learning Concepts In Depth"
-layout: collection
 layout: category
 permalink: /articles/
 taxonomy: Machine Learning
