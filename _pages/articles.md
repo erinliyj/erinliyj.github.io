@@ -2,7 +2,7 @@
 title: A Data Scientist Prepares
 excerpt: "Discuss Machine Learning Concepts In Depth"
 layout: category
-permalink: /articles/
+permalink: /categories/articles/
 taxonomy: Machine Learning
 header:
   overlay_color: "#000"

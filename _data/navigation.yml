@@ -2,7 +2,7 @@
 main:
   - title: "Articles"
     description: "A Data Scientist Prepares"
-    url: /articles/
+    url: /categories/articles/
   - title: "Tips"
     description: "Quick Reference For Anything"
     url: /tips/
