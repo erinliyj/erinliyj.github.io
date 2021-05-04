@@ -4,13 +4,13 @@ main:
     description: "A Data Scientist Prepares"
     url: /articles/
   - title: "Tips"
-    description: "Quick Reference For Coding"
+    description: "Quick Reference For Anything"
     url: /tips/
   - title: "Lens"
     description: "A New Look of Data"
     url: /lens/
   - title: "Portfolio"
-    description: "Work I'd Like To Show-off"
+    description: "A Collection Of My Work"
     url: /portfolio/
   # - title: "Sample Posts"
   #   url: /year-archive/

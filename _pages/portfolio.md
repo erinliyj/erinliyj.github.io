@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-excerpt: "Work I'd Like To Show-off"
+excerpt: "A Collection Of My Work"
 layout: collection
 permalink: /portfolio/
 collection: portfolio
