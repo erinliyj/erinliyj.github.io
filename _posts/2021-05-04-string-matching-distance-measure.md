@@ -28,7 +28,7 @@ Next we will talk about how to achieve each of the above.
 
 ## Use Case Two: Address Cleaning
 
-## Use Case Three: Dupolicate Question Detection
+## Use Case Three: Duplicate Question Detection
 
 
 ---
