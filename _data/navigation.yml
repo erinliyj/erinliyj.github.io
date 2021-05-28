@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Articles"
-    description: "A Data Scientist Prepares"
+    description: "Discuss A Topic In Depth"
     url: /categories/articles/
   - title: "Tips"
     description: "Quick Reference For Anything"
