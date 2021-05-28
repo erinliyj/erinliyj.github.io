@@ -1,6 +1,6 @@
 ---
 title: "String Matching With Edit Distance"
-excerpt: "With Three Applications Explained."
+excerpt: "Concept"
 last_modified_at: 2021-05-28 15:18:05
 excerpt_separator: "<!--more-->"
 categories:
