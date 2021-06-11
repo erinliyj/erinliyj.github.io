@@ -82,11 +82,7 @@ face_crop = np.copy(img[startY:endY, startX:endX])
 plt.imshow(img)
 plt.show()
 ```
-{% capture fig_img %}
-![Rectangle Over Face]({{/assets/images/rectangle-over-face.png | relative_url }})
-{% endcapture %}
-
-Image by <a href="https://pixabay.com/users/alyibel-3625842/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2326419">Alyibel Colmenares</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2326419">Pixabay</a>
+![Rectangle Over Face](/assets/images/rectangle-over-face.png)
 
 
 #### Step 3: Face gender classification
