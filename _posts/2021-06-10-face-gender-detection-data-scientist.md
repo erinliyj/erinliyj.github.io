@@ -14,7 +14,6 @@ toc: true
 header:
   teaser: /assets/images/mm-free-feature.jpg
 ---
-#
 
 ## What this does
 Given an image, perform face detection and gender detection with pretrained computer vision models.
