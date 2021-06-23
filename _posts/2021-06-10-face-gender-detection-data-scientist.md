@@ -1,5 +1,5 @@
 ---
-title: "Face Gender Detection With cvlib"
+title: "Face Gender Detection With OpenCV"
 excerpt: "Are there more male faces of data scientists on google search"
 last_modified_at: 2021-06-09 18:18:28
 excerpt_separator: "<!--more-->"
