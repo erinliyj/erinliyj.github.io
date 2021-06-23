@@ -14,6 +14,7 @@ toc: true
 header:
   teaser: /assets/images/mm-free-feature.jpg
 ---
+#
 
 ## What this does
 Given an image, perform face detection and gender detection with pretrained computer vision models.
@@ -24,7 +25,7 @@ To make it more fun, I will apply these techniques to find out if there are more
 
 ## How to do this
 #### Step 1: get some images
-![Google Image Search](/assets/images/google-image-search-data-scientist.png)
+![Google Image Search](/assets/images/google-image-search-data-scientist.PNG)
 
 This is the image search result of keyword 'Data Scientist'. We want to download a lot of these images without having to right-click and download manually. To do this you can use one of the following solutions. 
 * Paid solutions, some could be free of charge depends on your subscription
