@@ -16,28 +16,28 @@ header:
 ---
 
 ## What this does
-Given an image, perform Face detection and gender detection with pretrained computer vision models
+Given an image, perform face detection and gender detection with pretrained computer vision models.
 
 
 ## The use case
 To make it more fun, I will apply these techniques to find out if there are more male or female faces of data scientists on search engine.
 
 ## How to do this
-#### Step 1: Get some images of data scientists
+#### Step 1: get some images
 ![Google Image Search](/assets/images/google-image-search-data-scientist.png)
 
-This is the image search result of keyword 'Data Scientist'. We want to download a lot of these images without having to manually right-click and download. To do this you can use one of the following solutions. 
+This is the image search result of keyword 'Data Scientist'. We want to download a lot of these images without having to right-click and download manually. To do this you can use one of the following solutions. 
 * Paid solutions, some could be free of charge depends on your subscription
     * [Bing Image Search API by Azure](https://www.microsoft.com/en-us/bing/apis/bing-image-search-api)
     * [Custom Search JSON](https://developers.google.com/custom-search/v1/overview)
-* Python packages that's web crawler under the hood
+* Python packages that do web crawler under the hood
     * [google_images_download](https://pypi.org/project/google_images_download/)
-    * [simple-image-download](https://pypi.org/project/simple-image-download/) I'm using this
+    * [simple-image-download](https://pypi.org/project/simple-image-download/) (I'm using this)
 * Write your own web crawler
     * Use [requests](https://docs.python-requests.org/en/master/) and [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
     * Use [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/)
 
-Here is sample code to download images using simple-image-download package
+Here is sample code to download images using simple-image-download package.
 
 ```python
 from simple_image_download import simple_image_download as simp
@@ -101,6 +101,9 @@ plt.show()
 
 ## Are There More Male Faces of Data Scientists?
 
-Not too surprisingly, yes, there are a lot more male faces in this data set. Out of the 158 human faces detected, 61.4% are classified as male.
+Not too surprisingly, yes, there are a lot more male faces in this data set. Out of the 158 human faces detected, 61.4% are classified as male. In 2019 I did the same exercise and found nearly 80% of faces were classified as male. The sample sizes are small for both 2019 and 2021 analysis, but I'm still thrilled to see percentage of female faces increase.
 {% include /charts/gender-mix-data-scientists.html %}
 
+## The End
+
+Find complete code in this [jupyter notebook](https://github.com/erinliyj/face-recognition/blob/master/gender_bias_data_scientist.ipynb)
