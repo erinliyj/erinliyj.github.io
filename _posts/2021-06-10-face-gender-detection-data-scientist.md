@@ -11,6 +11,7 @@ tags:
   - Face Detection
   - Gender Detection
 toc: true
+toc_sticky: true
 header:
   teaser: /assets/images/mm-free-feature.jpg
 ---
@@ -23,7 +24,7 @@ Given an image, perform face detection and gender detection with pretrained comp
 To make it more fun, I will apply these techniques to find out if there are more male or female faces of data scientists on search engine.
 
 ## How to do this
-#### Step 1: get some images
+### Step 1: get some images
 ![Google Image Search](/assets/images/google-image-search-data-scientist.PNG)
 
 This is the image search result of keyword 'Data Scientist'. We want to download a lot of these images without having to right-click and download manually. To do this you can use one of the following solutions. 
@@ -46,7 +47,7 @@ response().download(keywords='Data Scientist', limit=500, extensions={'.jpg', '.
 ```
 Wait for the progress bar to reach 100%, and voila! you've got enough image data to proceed.
 
-#### Step 2: Find faces in image
+### Step 2: Find faces in image
 Now let's crop the human faces in these images. To do this we will use the [cvlib](https://pypi.org/project/cvlib/) in python
 
 ```bash
@@ -85,7 +86,7 @@ plt.show()
 ![Rectangle Over Face](/assets/images/rectangle-over-face.png)
 
 
-#### Step 3: Face gender classification
+### Step 3: Face gender classification
 Now we pass the cropped face images to a gender classifier.
 
 ```python
